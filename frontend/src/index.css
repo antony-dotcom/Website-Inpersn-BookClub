@@ -591,10 +591,22 @@ code {
 
 .cities-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .cities-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .cities-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .city-card {
