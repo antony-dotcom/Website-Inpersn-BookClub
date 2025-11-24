@@ -420,15 +420,13 @@ const Home = () => {
                 <a href="#faq">FAQ</a>
               </div>
               <div className="footer-column">
-                <h4>Company</h4>
-                <a href="#">About Us</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
+                <h4>Legal</h4>
+                <Link to="/privacy">Privacy Policy</Link>
+                <Link to="/terms">Terms of Service</Link>
               </div>
               <div className="footer-column">
                 <h4>Support</h4>
                 <a href="mailto:support@inpersn.club">support@inpersn.club</a>
-                <a href="#">Contact Us</a>
               </div>
             </div>
           </div>
