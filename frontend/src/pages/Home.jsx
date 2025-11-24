@@ -125,11 +125,11 @@ const Home = () => {
   const faqs = [
     {
       question: 'How does the matching process work?',
-      answer: 'When you express interest in a book, we track how many people in your city are interested. Once 8 people express interest, everyone gets notified and has 24 hours to confirm their spot by paying ₹99. The table confirms when at least 4 people join.'
+      answer: 'When you express interest in a book, we track how many people in your city are interested. Once 8 people express interest, everyone gets notified and has 24 hours to pay ₹99. The first 4 people to pay secure their spots at the table. Once 4 people have paid, the table is locked and confirmed.'
     },
     {
-      question: 'What happens if less than 4 people confirm?',
-      answer: 'If a table doesn\'t reach the minimum of 4 confirmed members, it gets cancelled and everyone receives a full refund. You can then join other book clubs that are forming.'
+      question: 'What happens if less than 4 people pay within 24 hours?',
+      answer: 'If a table doesn\'t reach 4 paid members within the 24-hour window, it gets cancelled and everyone who paid receives a full refund. You can then express interest in other books that are forming tables.'
     },
     {
       question: 'Can I suggest a book that\'s not in your library?',
