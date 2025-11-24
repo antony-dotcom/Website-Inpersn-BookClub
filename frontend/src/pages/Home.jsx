@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { BookOpen, Users, Coffee, MapPin, Star, CheckCircle2, MessageCircle, Calendar, Award, Shield, ChevronDown } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
+import SEO from '../components/SEO';
 
 const Home = () => {
   const [activeCity, setActiveCity] = useState('bangalore');
