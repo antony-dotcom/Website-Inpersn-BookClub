@@ -158,6 +158,7 @@ const Home = () => {
 
   return (
     <div className="landing-page">
+      <SEO />
       {/* Header */}
       <header className="header">
         <div className="container">
