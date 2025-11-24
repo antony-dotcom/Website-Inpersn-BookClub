@@ -183,7 +183,7 @@ const Home = () => {
               Over Coffee.
             </h1>
             <p className="hero-subtitle">
-              Join intimate book clubs with 4-8 readers in your city. Deep conversations, real connections, one book at a time.
+              Join InPersn BookClub and meet 3 other non-fiction readers in your city. No big events. No WhatsApp chaos. Just 4 readers, 1 book, 1 cafe table.
             </p>
             <div className="hero-cta">
               <Button className="cta-primary">
