@@ -1,0 +1,443 @@
+import React, { useState } from 'react';
+import { BookOpen, Users, Coffee, MapPin, Star, CheckCircle2, MessageCircle, Calendar, Award, Shield, ChevronDown } from 'lucide-react';
+import { Button } from '../components/ui/button';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
+
+const Home = () => {
+  const [activeCity, setActiveCity] = useState('bangalore');
+
+  const cities = [
+    { id: 'bangalore', name: 'Bangalore' },
+    { id: 'mumbai', name: 'Mumbai' },
+    { id: 'delhi', name: 'Delhi NCR' }
+  ];
+
+  const features = [
+    {
+      icon: BookOpen,
+      title: 'Curated Book Library',
+      description: '50+ hand-picked non-fiction titles across business, psychology, philosophy, and self-help'
+    },
+    {
+      icon: Users,
+      title: 'Smart Matching',
+      description: 'Get matched with readers in your city who share your interests and reading pace'
+    },
+    {
+      icon: Calendar,
+      title: 'Flexible Scheduling',
+      description: 'Vote on meetup times that work for your schedule - democracy in action'
+    },
+    {
+      icon: MapPin,
+      title: 'Café Recommendations',
+      description: 'Choose from verified café locations perfect for group discussions'
+    },
+    {
+      icon: MessageCircle,
+      title: 'Group Chat',
+      description: 'Connect with your book club members before the meetup and build excitement'
+    },
+    {
+      icon: Award,
+      title: 'Referral Rewards',
+      description: 'Invite friends and earn credits toward future book clubs'
+    }
+  ];
+
+  const howItWorks = [
+    {
+      step: '01',
+      title: 'Browse & Express Interest',
+      description: 'Browse our curated collection of 50+ non-fiction titles and express interest in books you\'d love to discuss.',
+      icon: BookOpen
+    },
+    {
+      step: '02',
+      title: 'Tables Form Automatically',
+      description: 'When 8 people show interest in the same book, everyone gets notified! You have 24 hours to secure your spot.',
+      icon: Users
+    },
+    {
+      step: '03',
+      title: 'Confirm Your Spot',
+      description: 'Pay just ₹99 to confirm your attendance. Tables confirm when at least 4 people join (up to 8 maximum).',
+      icon: CheckCircle2
+    },
+    {
+      step: '04',
+      title: 'Vote & Coordinate',
+      description: 'Choose your preferred café location and meetup time through in-app voting. Chat with your group!',
+      icon: Calendar
+    },
+    {
+      step: '05',
+      title: 'Meet & Discuss',
+      description: 'Enjoy deep, meaningful conversations over coffee with like-minded readers who\'ve read the same book.',
+      icon: Coffee
+    },
+    {
+      step: '06',
+      title: 'Build Your Community',
+      description: 'Rate your experience, earn credits through referrals, and join more book clubs!',
+      icon: Star
+    }
+  ];
+
+  const benefits = [
+    {
+      title: 'Real Connections',
+      description: 'Unlike online book clubs, InPersn focuses on face-to-face meetings that create deeper understanding and lasting friendships.'
+    },
+    {
+      title: 'Accountability Partner',
+      description: 'Having a scheduled meetup motivates you to actually finish the book. No more abandoned reads!'
+    },
+    {
+      title: 'Curated Experience',
+      description: 'We hand-pick thought-provoking non-fiction that sparks meaningful conversations.'
+    },
+    {
+      title: 'Commitment Creates Quality',
+      description: 'The ₹99 commitment fee ensures everyone shows up prepared, leading to amazing discussions.'
+    }
+  ];
+
+  const testimonials = [
+    {
+      quote: 'Finally, a way to meet people who actually read! The discussions are always engaging and I\'ve made real friends.',
+      author: 'Priya S.',
+      location: 'Bangalore'
+    },
+    {
+      quote: 'The ₹99 commitment fee is genius—everyone shows up prepared and the conversations are amazing.',
+      author: 'Rahul M.',
+      location: 'Mumbai'
+    },
+    {
+      quote: 'I\'ve read more books in 3 months with InPersn than I did all last year!',
+      author: 'Anjali K.',
+      location: 'Delhi NCR'
+    }
+  ];
+
+  const faqs = [
+    {
+      question: 'How does the matching process work?',
+      answer: 'When you express interest in a book, we track how many people in your city are interested. Once 8 people express interest, everyone gets notified and has 24 hours to confirm their spot by paying ₹99. The table confirms when at least 4 people join.'
+    },
+    {
+      question: 'What happens if less than 4 people confirm?',
+      answer: 'If a table doesn\'t reach the minimum of 4 confirmed members, it gets cancelled and everyone receives a full refund. You can then join other book clubs that are forming.'
+    },
+    {
+      question: 'Can I suggest a book that\'s not in your library?',
+      answer: 'Currently, we curate our collection to ensure quality discussions. However, we regularly add new titles based on member feedback. You can submit suggestions through the app!'
+    },
+    {
+      question: 'Is it safe to meet strangers?',
+      answer: 'Safety is our priority. All meetups happen in public café locations, users are verified, and we have a rating system. You can also check member profiles before confirming your spot.'
+    },
+    {
+      question: 'How do I earn referral credits?',
+      answer: 'Share your unique referral code with friends. When they join their first book club and complete the meetup, you both earn credits that can be used toward future book clubs.'
+    },
+    {
+      question: 'What if I can\'t finish the book in time?',
+      answer: 'We recommend joining tables that vote for meetup dates giving you enough reading time. However, it\'s okay if you don\'t finish—partial reads can still lead to great discussions!'
+    }
+  ];
+
+  return (
+    <div className="landing-page">
+      {/* Header */}
+      <header className="header">
+        <div className="container">
+          <div className="header-content">
+            <div className="logo-section">
+              <img src="https://customer-assets.emergentagent.com/job_5ea04f82-beca-491a-aa96-dd9485c3cd96/artifacts/a7lp2bjw_App%20Icon.png" alt="InPersn BookClub" className="logo" />
+              <span className="logo-text">InPersn BookClub</span>
+            </div>
+            <nav className="nav-links">
+              <a href="#how-it-works">How It Works</a>
+              <a href="#features">Features</a>
+              <a href="#testimonials">Testimonials</a>
+              <a href="#faq">FAQ</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      {/* Hero Section */}
+      <section className="hero-section">
+        <div className="hero-background">
+          <img src="https://images.unsplash.com/photo-1761472693476-98f3a00568b5" alt="Book community" />
+          <div className="hero-overlay"></div>
+        </div>
+        <div className="container">
+          <div className="hero-content">
+            <h1 className="hero-title">
+              Meet Readers.<br />
+              Talk Books.<br />
+              Over Coffee.
+            </h1>
+            <p className="hero-subtitle">
+              Join intimate book clubs with 4-8 readers in your city. Deep conversations, real connections, one book at a time.
+            </p>
+            <div className="hero-cta">
+              <Button className="cta-primary">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on App Store" className="store-badge" />
+              </Button>
+              <Button className="cta-secondary">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="store-badge" />
+              </Button>
+            </div>
+            <div className="hero-stats">
+              <div className="stat-item">
+                <span className="stat-number">50+</span>
+                <span className="stat-label">Curated Books</span>
+              </div>
+              <div className="stat-item">
+                <span className="stat-number">4-8</span>
+                <span className="stat-label">Readers per Table</span>
+              </div>
+              <div className="stat-item">
+                <span className="stat-number">₹99</span>
+                <span className="stat-label">Per Meetup</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section id="how-it-works" className="how-it-works-section">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title">How It Works</h2>
+            <p className="section-subtitle">From browsing to bonding—join your first book club in 6 simple steps</p>
+          </div>
+          <div className="steps-grid">
+            {howItWorks.map((step, index) => {
+              const Icon = step.icon;
+              return (
+                <div key={index} className="step-card">
+                  <div className="step-number">{step.step}</div>
+                  <div className="step-icon">
+                    <Icon size={32} />
+                  </div>
+                  <h3 className="step-title">{step.title}</h3>
+                  <p className="step-description">{step.description}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Features */}
+      <section id="features" className="features-section">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title">Features You'll Love</h2>
+            <p className="section-subtitle">Everything you need for meaningful book discussions</p>
+          </div>
+          <div className="features-grid">
+            {features.map((feature, index) => {
+              const Icon = feature.icon;
+              return (
+                <div key={index} className="feature-card">
+                  <div className="feature-icon">
+                    <Icon size={28} />
+                  </div>
+                  <h3 className="feature-title">{feature.title}</h3>
+                  <p className="feature-description">{feature.description}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits with Image */}
+      <section className="benefits-section">
+        <div className="container">
+          <div className="benefits-content">
+            <div className="benefits-left">
+              <h2 className="section-title">Why InPersn?</h2>
+              <div className="benefits-list">
+                {benefits.map((benefit, index) => (
+                  <div key={index} className="benefit-item">
+                    <CheckCircle2 className="benefit-icon" size={24} />
+                    <div>
+                      <h3 className="benefit-title">{benefit.title}</h3>
+                      <p className="benefit-description">{benefit.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="benefits-right">
+              <img src="https://images.unsplash.com/photo-1760351561007-526f5353cc76" alt="Book discussion" className="benefits-image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section id="testimonials" className="testimonials-section">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title">What Readers Say</h2>
+            <p className="section-subtitle">Real experiences from our community</p>
+          </div>
+          <div className="testimonials-grid">
+            {testimonials.map((testimonial, index) => (
+              <div key={index} className="testimonial-card">
+                <div className="testimonial-stars">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} size={20} fill="#C4A962" stroke="#C4A962" />
+                  ))}
+                </div>
+                <p className="testimonial-quote">"{testimonial.quote}"</p>
+                <div className="testimonial-author">
+                  <span className="author-name">{testimonial.author}</span>
+                  <span className="author-location">{testimonial.location}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing */}
+      <section className="pricing-section">
+        <div className="container">
+          <div className="pricing-content">
+            <div className="pricing-header">
+              <h2 className="section-title">Transparent Pricing</h2>
+              <p className="section-subtitle">No hidden fees. No subscriptions. Just great conversations.</p>
+            </div>
+            <div className="pricing-details">
+              <div className="pricing-item">
+                <CheckCircle2 className="pricing-icon" size={24} />
+                <span>Browse books: <strong>FREE</strong></span>
+              </div>
+              <div className="pricing-item">
+                <CheckCircle2 className="pricing-icon" size={24} />
+                <span>Express interest: <strong>FREE</strong></span>
+              </div>
+              <div className="pricing-item">
+                <CheckCircle2 className="pricing-icon" size={24} />
+                <span>Secure your spot: <strong>₹99 per book club</strong></span>
+              </div>
+              <div className="pricing-item">
+                <CheckCircle2 className="pricing-icon" size={24} />
+                <span>Referral rewards: <strong>Earn credits</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Cities Coverage */}
+      <section className="cities-section">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title">Currently Available In</h2>
+            <p className="section-subtitle">Growing to more cities soon</p>
+          </div>
+          <div className="cities-grid">
+            {cities.map((city) => (
+              <div 
+                key={city.id} 
+                className={`city-card ${activeCity === city.id ? 'active' : ''}`}
+                onMouseEnter={() => setActiveCity(city.id)}
+              >
+                <MapPin size={32} />
+                <h3>{city.name}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section id="faq" className="faq-section">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title">Frequently Asked Questions</h2>
+            <p className="section-subtitle">Everything you need to know</p>
+          </div>
+          <div className="faq-content">
+            <Accordion type="single" collapsible className="faq-accordion">
+              {faqs.map((faq, index) => (
+                <AccordionItem key={index} value={`item-${index}`}>
+                  <AccordionTrigger>{faq.question}</AccordionTrigger>
+                  <AccordionContent>{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="final-cta-section">
+        <div className="container">
+          <div className="final-cta-content">
+            <h2 className="final-cta-title">Your Next Great Conversation Awaits</h2>
+            <p className="final-cta-subtitle">Download InPersn BookClub and join your first meetup today</p>
+            <div className="final-cta-buttons">
+              <Button className="cta-primary">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on App Store" className="store-badge" />
+              </Button>
+              <Button className="cta-secondary">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="store-badge" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="footer">
+        <div className="container">
+          <div className="footer-content">
+            <div className="footer-left">
+              <div className="footer-logo">
+                <img src="https://customer-assets.emergentagent.com/job_5ea04f82-beca-491a-aa96-dd9485c3cd96/artifacts/a7lp2bjw_App%20Icon.png" alt="InPersn BookClub" className="footer-logo-img" />
+                <span className="footer-logo-text">InPersn BookClub</span>
+              </div>
+              <p className="footer-tagline">Building communities through books</p>
+            </div>
+            <div className="footer-links">
+              <div className="footer-column">
+                <h4>Product</h4>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#features">Features</a>
+                <a href="#faq">FAQ</a>
+              </div>
+              <div className="footer-column">
+                <h4>Company</h4>
+                <a href="#">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+              </div>
+              <div className="footer-column">
+                <h4>Support</h4>
+                <a href="mailto:support@inpersn.club">support@inpersn.club</a>
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <div className="footer-bottom">
+            <p>&copy; 2025 InPersn BookClub. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Home;
