@@ -199,7 +199,7 @@ const Home = () => {
                 <span className="stat-label">Curated Books</span>
               </div>
               <div className="stat-item">
-                <span className="stat-number">4-8</span>
+                <span className="stat-number">4</span>
                 <span className="stat-label">Readers per Table</span>
               </div>
               <div className="stat-item">
