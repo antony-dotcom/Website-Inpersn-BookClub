@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const TermsOfService = () => {
   return (
     <div className="legal-page">
+      <SEO 
+        title="Terms of Service - InPersn BookClub"
+        description="InPersn BookClub Terms of Service. Read our terms and conditions for using the book club service."
+        url="https://inpersn.club/terms"
+      />
       {/* Header */}
       <header className="header">
         <div className="container">
