@@ -62,7 +62,7 @@ const Home = () => {
     {
       step: '03',
       title: 'Confirm Your Spot',
-      description: 'Pay just ₹99 to confirm your attendance. Tables confirm when at least 4 people join (up to 8 maximum).',
+      description: 'Pay just ₹99 to secure your spot. The first 4 people to pay get confirmed. Once 4 people pay, the table is locked.',
       icon: CheckCircle2
     },
     {
