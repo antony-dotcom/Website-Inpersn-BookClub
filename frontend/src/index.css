@@ -99,6 +99,13 @@ code {
     }
 }
 
+/* Hide Emergent Badge */
+#emergent-badge {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
 /* Landing Page Styles */
 .landing-page {
   background-color: var(--bg-primary);
