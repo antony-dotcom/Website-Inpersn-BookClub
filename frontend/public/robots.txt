@@ -1,0 +1,33 @@
+# robots.txt for InPersn BookClub
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private pages (if any)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all crawlers to access
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Sitemap
+Sitemap: https://inpersn.club/sitemap.xml
