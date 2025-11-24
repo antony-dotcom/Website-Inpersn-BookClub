@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const PrivacyPolicy = () => {
   return (
     <div className="legal-page">
+      <SEO 
+        title="Privacy Policy - InPersn BookClub"
+        description="InPersn BookClub Privacy Policy. Learn how we collect, use, and protect your personal information when you use our book club service."
+        url="https://inpersn.club/privacy"
+      />
       {/* Header */}
       <header className="header">
         <div className="container">
