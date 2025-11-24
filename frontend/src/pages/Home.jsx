@@ -10,7 +10,13 @@ const Home = () => {
   const cities = [
     { id: 'bangalore', name: 'Bangalore' },
     { id: 'mumbai', name: 'Mumbai' },
-    { id: 'delhi', name: 'Delhi NCR' }
+    { id: 'delhi', name: 'Delhi' },
+    { id: 'gurgaon', name: 'Gurgaon' },
+    { id: 'noida', name: 'Noida' },
+    { id: 'pune', name: 'Pune' },
+    { id: 'chennai', name: 'Chennai' },
+    { id: 'kolkata', name: 'Kolkata' },
+    { id: 'hyderabad', name: 'Hyderabad' }
   ];
 
   const features = [
