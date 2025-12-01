@@ -404,10 +404,16 @@ const Home = () => {
             <h2 className="final-cta-title">Your Next Great Conversation Awaits</h2>
             <p className="final-cta-subtitle">Download InPersn BookClub and join your first meetup today</p>
             <div className="final-cta-buttons">
-              <Button className="cta-primary">
+              <Button 
+                className="cta-primary"
+                onClick={() => window.open('https://survey.qwary.com/f/AABuyQ?identifier=S_wSzSPnasH9Wc_FT15X0J1BuEcPl5gIzl1vEqdrvL4', '_blank')}
+              >
                 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on App Store" className="store-badge" />
               </Button>
-              <Button className="cta-secondary">
+              <Button 
+                className="cta-secondary"
+                onClick={() => window.open('https://survey.qwary.com/f/AABuyQ?identifier=S_wSzSPnasH9Wc_FT15X0J1BuEcPl5gIzl1vEqdrvL4', '_blank')}
+              >
                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="store-badge" />
               </Button>
             </div>
