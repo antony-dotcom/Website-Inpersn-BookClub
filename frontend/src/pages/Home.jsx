@@ -430,7 +430,7 @@ const Home = () => {
                 <img src="https://customer-assets.emergentagent.com/job_5ea04f82-beca-491a-aa96-dd9485c3cd96/artifacts/a7lp2bjw_App%20Icon.png" alt="InPersn BookClub" className="footer-logo-img" />
                 <span className="footer-logo-text">InPersn BookClub</span>
               </div>
-              <p className="footer-tagline">Building communities through books</p>
+              <p className="footer-tagline">Real conversations for people who read to think</p>
             </div>
             <div className="footer-links">
               <div className="footer-column">
