@@ -2,9 +2,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 const SEO = ({ 
-  title = "InPersn BookClub - Meet Readers Over Coffee | Book Discussions in India",
-  description = "Join InPersn BookClub and meet 3 other non-fiction readers in your city. Just 4 readers, 1 book, 1 cafe table. Available in Bangalore, Mumbai, Delhi, Gurgaon, Noida, Pune, Chennai, Kolkata, and Hyderabad. ₹99 per meetup.",
-  keywords = "book club, reading club, book discussion, meet readers, coffee meetup, non-fiction books, Bangalore book club, Mumbai book club, Delhi book club, book lovers India, reading community",
+  title = "InPersn BookClub - Real Conversations for People Who Read to Think",
+  description = "Meet thoughtful readers in small groups. Discuss books you actually finished. Deep conversations, over coffee. 4 readers, 1 book, 1 table. Available in 9 cities across India. ₹99 per meetup.",
+  keywords = "book club, small group discussion, non-fiction readers, thoughtful conversations, coffee meetup, curated books, Bangalore book club, Mumbai book club, Delhi book club, serious readers India",
   url = "https://inpersn.club",
   image = "https://customer-assets.emergentagent.com/job_5ea04f82-beca-491a-aa96-dd9485c3cd96/artifacts/a7lp2bjw_App%20Icon.png",
   type = "website"
