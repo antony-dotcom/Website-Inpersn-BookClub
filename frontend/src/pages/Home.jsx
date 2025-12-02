@@ -107,7 +107,7 @@ const Home = () => {
     },
     {
       title: 'No Flakes, No Chaos',
-      description: '₹99 commitment means everyone shows up. Clear structure means no confusion. Just good conversations.'
+      description: '₹499 commitment means everyone shows up. Clear structure means no confusion. Just good conversations.'
     }
   ];
 
