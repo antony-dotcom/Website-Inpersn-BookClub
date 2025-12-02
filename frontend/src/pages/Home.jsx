@@ -118,7 +118,7 @@ const Home = () => {
       location: 'Bangalore'
     },
     {
-      quote: 'The ₹99 commitment fee is genius—everyone shows up prepared and the conversations are amazing.',
+      quote: 'The ₹499 commitment fee is genius—everyone shows up prepared and the conversations are amazing.',
       author: 'Rahul M.',
       location: 'Mumbai'
     },
