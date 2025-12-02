@@ -254,8 +254,8 @@ const Home = () => {
       <section id="features" className="features-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Features You'll Love</h2>
-            <p className="section-subtitle">Everything you need for meaningful book discussions</p>
+            <h2 className="section-title">Why InPersn Works</h2>
+            <p className="section-subtitle">Small groups. Real people. Thoughtful discussions.</p>
           </div>
           <div className="features-grid">
             {features.map((feature, index) => {
