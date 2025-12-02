@@ -143,7 +143,7 @@ const SEO = ({
         "name": "How much does InPersn BookClub cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Browsing books and expressing interest is FREE. You only pay ₹99 when you want to confirm your spot at a book club table. There are no subscriptions or hidden fees."
+          "text": "Browsing books and expressing interest is FREE. You only pay ₹499 when you want to confirm your spot at a book club table. There are no subscriptions or hidden fees."
         }
       },
       {
