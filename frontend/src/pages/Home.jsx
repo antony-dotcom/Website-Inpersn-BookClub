@@ -186,12 +186,12 @@ const Home = () => {
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">
-              Real Conversations<br />
-              for People Who Read<br />
-              to Think.
+              Meet Readers.<br />
+              Talk Books.<br />
+              Over Coffee.
             </h1>
             <p className="hero-subtitle">
-              Meet thoughtful readers in small groups. Discuss books you actually finished. Deep conversations, over coffee.
+              Join InPersn BookClub and meet 3 other non-fiction readers in your city. No big events. No WhatsApp chaos. Just 4 readers, 1 book, 1 cafe table.
             </p>
             <div className="hero-cta">
               <Button 
