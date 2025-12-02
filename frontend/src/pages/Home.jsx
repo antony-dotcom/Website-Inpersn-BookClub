@@ -293,7 +293,7 @@ const Home = () => {
               </div>
             </div>
             <div className="benefits-right">
-              <img src="https://images.unsplash.com/photo-1760351561007-526f5353cc76" alt="Book discussion" className="benefits-image" />
+              <img src="https://customer-assets.emergentagent.com/job_readersmeet/artifacts/gds6nsgd_Gemini_Generated_Image_1r2lt41r2lt41r2l.png" alt="Book discussion" className="benefits-image" />
             </div>
           </div>
         </div>
