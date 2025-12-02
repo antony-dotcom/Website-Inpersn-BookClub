@@ -359,8 +359,8 @@ const Home = () => {
       <section className="cities-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Currently Available In</h2>
-            <p className="section-subtitle">Operating in 9 cities across India. More cities coming soon!</p>
+            <h2 className="section-title">Where We Meet</h2>
+            <p className="section-subtitle">9 cities. Growing steadily, not rapidly.</p>
           </div>
           <div className="cities-grid">
             {cities.map((city) => (
