@@ -73,7 +73,7 @@ const TermsOfService = () => {
               <p>When a table reaches 8 interested readers, a 24-hour payment window opens. The first 4 people to pay secure their spots.</p>
               
               <h3>Payment Amount:</h3>
-              <p>₹99 per meetup (subject to change)</p>
+              <p>₹499 per meetup (subject to change)</p>
               
               <h3>Payment Processing:</h3>
               <p>All payments are processed securely through Razorpay. We do not store your payment card details.</p>
