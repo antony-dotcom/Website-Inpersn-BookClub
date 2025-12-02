@@ -401,8 +401,8 @@ const Home = () => {
       <section className="final-cta-section">
         <div className="container">
           <div className="final-cta-content">
-            <h2 className="final-cta-title">Your Next Great Conversation Awaits</h2>
-            <p className="final-cta-subtitle">Download InPersn BookClub and join your first meetup today</p>
+            <h2 className="final-cta-title">Start Your First Table</h2>
+            <p className="final-cta-subtitle">Meet people who chose the same book as you.</p>
             <div className="final-cta-buttons">
               <Button 
                 className="cta-primary"
