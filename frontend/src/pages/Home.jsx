@@ -230,7 +230,7 @@ const Home = () => {
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">How It Works</h2>
-            <p className="section-subtitle">From browsing to bonding—join your first book club in 6 simple steps</p>
+            <p className="section-subtitle">Simple. Structured. Reliable. Join your first table in 6 steps.</p>
           </div>
           <div className="steps-grid">
             {howItWorks.map((step, index) => {
