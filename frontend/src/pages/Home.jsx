@@ -274,44 +274,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* The Magic Moment */}
-      <section className="magic-moment-section">
-        <div className="container">
-          <div className="magic-moment-content">
-            <div className="magic-moment-left">
-              <div className="step-badge">Step 2</div>
-              <h2 className="magic-moment-title">If 8 Readers Match...<br />Your Table Forms</h2>
-              <p className="magic-moment-subtitle">Quality groups with shared interests, automatically.</p>
-              <div className="magic-moment-features">
-                <div className="magic-moment-feature">
-                  <CheckCircle2 size={24} className="magic-check" />
-                  <span>8 people express interest in the same book</span>
-                </div>
-                <div className="magic-moment-feature">
-                  <CheckCircle2 size={24} className="magic-check" />
-                  <span>Everyone gets notified simultaneously</span>
-                </div>
-                <div className="magic-moment-feature">
-                  <CheckCircle2 size={24} className="magic-check" />
-                  <span>First 4 to pay secure their spots</span>
-                </div>
-                <div className="magic-moment-feature">
-                  <CheckCircle2 size={24} className="magic-check" />
-                  <span>Your table locks and forms automatically</span>
-                </div>
-              </div>
-            </div>
-            <div className="magic-moment-right">
-              <img 
-                src="https://customer-assets.emergentagent.com/job_readersmeet/artifacts/n0qemtz6_The%20Magic%20Moment.png" 
-                alt="8 readers matching for Atomic Habits book club in Bangalore" 
-                className="magic-moment-image"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Benefits with Image */}
       <section className="benefits-section">
         <div className="container">
