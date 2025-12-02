@@ -381,8 +381,8 @@ const Home = () => {
       <section id="faq" className="faq-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Frequently Asked Questions</h2>
-            <p className="section-subtitle">Everything you need to know</p>
+            <h2 className="section-title">Questions?</h2>
+            <p className="section-subtitle">Clear answers. No jargon.</p>
           </div>
           <div className="faq-content">
             <Accordion type="single" collapsible className="faq-accordion">
