@@ -279,7 +279,7 @@ const Home = () => {
         <div className="container">
           <div className="benefits-content">
             <div className="benefits-left">
-              <h2 className="section-title">Why InPersn?</h2>
+              <h2 className="section-title">Reading with Depth Deserves Conversations with Depth</h2>
               <div className="benefits-list">
                 {benefits.map((benefit, index) => (
                   <div key={index} className="benefit-item">
