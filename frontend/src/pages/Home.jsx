@@ -56,38 +56,38 @@ const Home = () => {
   const howItWorks = [
     {
       step: '01',
-      title: 'Browse & Express Interest',
-      description: 'Browse our curated collection of 50+ non-fiction titles and express interest in books you\'d love to discuss.',
+      title: 'Browse Curated Books',
+      description: 'Explore 50+ thoughtfully selected non-fiction titles. Pick books that make you think.',
       icon: BookOpen
     },
     {
       step: '02',
       title: 'Tables Form Automatically',
-      description: 'When 8 people show interest in the same book, everyone gets notified! You have 24 hours to secure your spot.',
+      description: 'When 8 readers express interest in the same book, everyone gets notified. 24 hours to decide.',
       icon: Users
     },
     {
       step: '03',
       title: 'Confirm Your Spot',
-      description: 'Pay just ₹99 to secure your spot. The first 4 people to pay get confirmed. Once 4 people pay, the table is locked.',
+      description: 'Pay ₹99 to commit. First 4 who pay get in. No flakes. No chaos.',
       icon: CheckCircle2
     },
     {
       step: '04',
       title: 'Vote & Coordinate',
-      description: 'Choose your preferred café location and meetup time through in-app voting. Chat with your group!',
+      description: 'Choose your café and time together. Simple voting. Clear decisions.',
       icon: Calendar
     },
     {
       step: '05',
-      title: 'Meet & Discuss',
-      description: 'Enjoy deep, meaningful conversations over coffee with like-minded readers who\'ve read the same book.',
+      title: 'Show Up & Discuss',
+      description: 'Meet at the café. Four people who chose the same book. Real conversations.',
       icon: Coffee
     },
     {
       step: '06',
-      title: 'Build Your Community',
-      description: 'Rate your experience, earn credits through referrals, and join more book clubs!',
+      title: 'Keep Reading, Keep Meeting',
+      description: 'Rate your experience. Join more tables. Build meaningful connections through books.',
       icon: Star
     }
   ];
