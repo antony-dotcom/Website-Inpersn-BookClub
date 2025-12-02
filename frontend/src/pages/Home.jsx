@@ -217,7 +217,7 @@ const Home = () => {
                 <span className="stat-label">Readers per Table</span>
               </div>
               <div className="stat-item">
-                <span className="stat-number">₹99</span>
+                <span className="stat-number">₹499</span>
                 <span className="stat-label">Per Meetup</span>
               </div>
             </div>
