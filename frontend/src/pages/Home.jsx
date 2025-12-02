@@ -132,7 +132,7 @@ const Home = () => {
   const faqs = [
     {
       question: 'How does the matching process work?',
-      answer: 'When you express interest in a book, we track how many people in your city are interested. Once 8 people express interest, everyone gets notified and has 24 hours to pay ₹99. The first 4 people to pay secure their spots at the table. Once 4 people have paid, the table is locked and confirmed.'
+      answer: 'When you express interest in a book, we track how many people in your city are interested. Once 8 people express interest, everyone gets notified and has 24 hours to pay ₹499. The first 4 people to pay secure their spots at the table. Once 4 people have paid, the table is locked and confirmed.'
     },
     {
       question: 'What happens if less than 4 people pay within 24 hours?',
