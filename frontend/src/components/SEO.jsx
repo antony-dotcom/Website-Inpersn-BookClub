@@ -94,7 +94,7 @@ const SEO = ({
         ],
         "offers": {
           "@type": "Offer",
-          "price": "99",
+          "price": "499",
           "priceCurrency": "INR",
           "description": "Per book club meetup"
         }
