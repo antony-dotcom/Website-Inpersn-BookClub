@@ -23,33 +23,33 @@ const Home = () => {
   const features = [
     {
       icon: BookOpen,
-      title: 'Curated Book Library',
-      description: '50+ hand-picked non-fiction titles across business, psychology, philosophy, and self-help'
+      title: 'Curated for Thinkers',
+      description: '50+ non-fiction titles chosen for depth. Business. Psychology. Philosophy. Books that matter.'
     },
     {
       icon: Users,
-      title: 'Smart Matching',
-      description: 'Get matched with readers in your city who share your interests and reading pace'
+      title: 'Small by Design',
+      description: 'Four people per table. Not big groups. Not online threads. Just intimate, meaningful conversation.'
     },
     {
       icon: Calendar,
-      title: 'Flexible Scheduling',
-      description: 'Vote on meetup times that work for your schedule - democracy in action'
+      title: 'Structured & Predictable',
+      description: 'Clear timelines. Simple voting. No confusion. You always know what happens next.'
     },
     {
       icon: MapPin,
-      title: 'Café Recommendations',
-      description: 'Choose from verified café locations perfect for group discussions'
+      title: 'Real Cafés, Real People',
+      description: 'Meet at actual coffee shops in your city. Face-to-face. No screens between you.'
     },
     {
       icon: MessageCircle,
-      title: 'Group Chat',
-      description: 'Connect with your book club members before the meetup and build excitement'
+      title: 'Coordinate Before You Meet',
+      description: 'Brief chat to align on location and time. Then save the real talk for the table.'
     },
     {
       icon: Award,
-      title: 'Referral Rewards',
-      description: 'Invite friends and earn credits toward future book clubs'
+      title: 'Invite Thoughtful Friends',
+      description: 'Share with people who read seriously. Earn credits when they join their first table.'
     }
   ];
 
