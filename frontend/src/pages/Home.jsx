@@ -94,20 +94,20 @@ const Home = () => {
 
   const benefits = [
     {
-      title: 'Real Connections',
-      description: 'Unlike online book clubs, InPersn focuses on face-to-face meetings that create deeper understanding and lasting friendships.'
+      title: 'In-Person > Online',
+      description: 'Real faces. Real voices. Real connection. Not another virtual meeting or WhatsApp group.'
     },
     {
-      title: 'Accountability Partner',
-      description: 'Having a scheduled meetup motivates you to actually finish the book. No more abandoned reads!'
+      title: 'Small Groups > Big Events',
+      description: 'Four people means everyone speaks. Everyone listens. No one gets lost in the crowd.'
     },
     {
-      title: 'Curated Experience',
-      description: 'We hand-pick thought-provoking non-fiction that sparks meaningful conversations.'
+      title: 'Serious Readers Only',
+      description: 'Non-fiction attracts thinkers. Our curation elevates quality. You meet people who actually finish books.'
     },
     {
-      title: 'Commitment Creates Quality',
-      description: 'The ₹99 commitment fee ensures everyone shows up prepared, leading to amazing discussions.'
+      title: 'No Flakes, No Chaos',
+      description: '₹99 commitment means everyone shows up. Clear structure means no confusion. Just good conversations.'
     }
   ];
 
