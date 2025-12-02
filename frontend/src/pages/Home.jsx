@@ -331,6 +331,35 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Steps 3-4: Remaining Journey */}
+      <section className="visual-features-section">
+        <div className="container">
+          <div className="visual-features-grid">
+            <div className="visual-feature-card">
+              <img src="https://customer-assets.emergentagent.com/job_readersmeet/artifacts/7ppndunc_Reliability%20%2B%20No%20Flakes.png" alt="Confirm your spot with commitment fee" className="visual-feature-image" />
+              <div className="visual-feature-content">
+                <h3>3. Confirm Your Spot With Commitment Fee</h3>
+                <p>A tiny commitment that ensures only serious readers show up. No flakes. No chaos. Just committed people.</p>
+              </div>
+            </div>
+            <div className="visual-feature-card">
+              <img src="https://customer-assets.emergentagent.com/job_readersmeet/artifacts/aual3lbs_Seamless%20Logistics.png" alt="Vote on cafe and time together" className="visual-feature-image" />
+              <div className="visual-feature-content">
+                <h3>4. Vote on Café & Time Together</h3>
+                <p>The simplest way to plan a meetup - no WhatsApp chaos. Vote on location and time. Everyone decides together.</p>
+              </div>
+            </div>
+            <div className="visual-feature-card">
+              <img src="https://customer-assets.emergentagent.com/job_readersmeet/artifacts/pwcg5rbm_The%20InPersn%20Experience.png" alt="Experience meaningful face-to-face conversations" className="visual-feature-image" />
+              <div className="visual-feature-content">
+                <h3>5. Experience Meaningful Conversations</h3>
+                <p>Small, intimate groups of readers. Face-to-face. Real voices. Real connections. Not noisy big meetups.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits with Image */}
       <section className="benefits-section">
         <div className="container">
