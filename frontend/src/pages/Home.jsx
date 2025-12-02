@@ -330,8 +330,8 @@ const Home = () => {
         <div className="container">
           <div className="pricing-content">
             <div className="pricing-header">
-              <h2 className="section-title">Transparent Pricing</h2>
-              <p className="section-subtitle">No hidden fees. No subscriptions. Just great conversations.</p>
+              <h2 className="section-title">Simple Pricing</h2>
+              <p className="section-subtitle">Browse free. Join for ₹99. No subscriptions. No surprises.</p>
             </div>
             <div className="pricing-details">
               <div className="pricing-item">
