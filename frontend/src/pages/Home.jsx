@@ -69,7 +69,7 @@ const Home = () => {
     {
       step: '03',
       title: 'Confirm Your Spot',
-      description: 'Pay ₹99 to commit. First 4 who pay get in. No flakes. No chaos.',
+      description: 'Pay ₹499 to commit. First 4 who pay get in. No flakes. No chaos.',
       icon: CheckCircle2
     },
     {
