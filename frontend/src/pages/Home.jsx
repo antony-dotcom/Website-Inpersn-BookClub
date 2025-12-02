@@ -279,6 +279,7 @@ const Home = () => {
         <div className="container">
           <div className="magic-moment-content">
             <div className="magic-moment-left">
+              <div className="step-badge">Step 2</div>
               <h2 className="magic-moment-title">If 8 Readers Match...<br />Your Table Forms</h2>
               <p className="magic-moment-subtitle">Quality groups with shared interests, automatically.</p>
               <div className="magic-moment-features">
