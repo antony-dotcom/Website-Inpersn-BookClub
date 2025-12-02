@@ -344,7 +344,7 @@ const Home = () => {
               </div>
               <div className="pricing-item">
                 <CheckCircle2 className="pricing-icon" size={24} />
-                <span>Secure your spot: <strong>₹99 per book club</strong></span>
+                <span>Secure your spot: <strong>₹499 per book club</strong></span>
               </div>
               <div className="pricing-item">
                 <CheckCircle2 className="pricing-icon" size={24} />
