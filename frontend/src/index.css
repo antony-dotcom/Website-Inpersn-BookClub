@@ -533,6 +533,13 @@ code {
   margin-top: 64px;
 }
 
+.visual-features-section.single-feature .visual-features-grid {
+  grid-template-columns: 1fr;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .visual-feature-card {
   display: flex;
   flex-direction: column;
