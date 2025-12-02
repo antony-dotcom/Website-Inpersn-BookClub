@@ -180,7 +180,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-background">
-          <img src="https://customer-assets.emergentagent.com/job_readersmeet/artifacts/pwcg5rbm_The%20InPersn%20Experience.png" alt="Book community" />
+          <img src="https://images.unsplash.com/photo-1761472693476-98f3a00568b5" alt="Book community" />
           <div className="hero-overlay"></div>
         </div>
         <div className="container">
